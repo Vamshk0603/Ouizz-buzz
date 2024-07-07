@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./loginpage.css">
+    <link rel="stylesheet" href="boxicons/css/boxicons.css">
+    <title>LOGIN PAGE BASIC</title>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+            <span>Have an account?</span>
+            <header>Login<header>
+
+            </div>
+            <div class="input-field">
+                <input type="text" class="input" id="Username" placeholder="Name" required>
+                <i class="bx bx-user"></i>
+            </div>
+            <br>
+            <div class="input-field">
+                <input type="password" class="input " id="Password" placeholder="Password" required>
+                <i class="bx bx-lock"></i>
+            </div>
+            <br>
+            <a href="loginpage.html">
+            <div class="input-field"></a>
+                <input type="submit" placeholder="Submit" id="Submit " class="submit">
+            </div >
+            <br>
+            <div class="left">
+                <input type="checkbox" name="rememberme" id="rememberme">
+                <label for="checkbox">Remember me?</label>
+                
+                <br>
+            </div >
+            <br>
+            <div class="right">
+               
+            </div>
+        </div>
+    </div>
+    <script>
+    document.getElementById("Submit").addEventListener("click", function() {
+        window.location.href = "quiz6.html";
+      });
+    </script>
+</body>
+</html>
